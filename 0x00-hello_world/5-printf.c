@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print the art of grammar 
+ * main - The entry point 
  * Return: Always 0.
  */
 int main(void)
