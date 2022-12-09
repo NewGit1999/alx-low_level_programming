@@ -9,7 +9,7 @@
 
 
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: Always 0.
  */
 
@@ -37,7 +37,7 @@ int main(void)
 
 											n, n % 10);
 					}
-					else 
+					else
 					{
 						printf("Last digit of %d is %d and is 0\n",
 
