@@ -12,6 +12,6 @@ int main(void)
 		if ((b % 3) == 0 || (b % 5) == 0)
 			add += b;
 	}
-	printf("%d\n", b);
+	printf("%d\n", add);
 	return (0);
 }
