@@ -5,10 +5,14 @@
  */
 void print_rev(char *s)
 {
-	int length = 0, index;
+	int length = 0;
+	int index = 0;
 
-	while (*s++)
+	while (s[index] != '\0')
+	{
 		length++;
+		index++;
+	}
 
 	for (index = length - 1; index >= 0; index--)
 		_putchar(s[index]);
