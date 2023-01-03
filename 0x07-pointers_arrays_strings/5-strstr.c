@@ -3,7 +3,7 @@
 /**
  * _strstr - locates a substring
  * @haystack: first string
- * @needle: second string
+ * @needle: substring
  * Return: char
  */
 char *_strstr(char *haystack, char *needle)
@@ -11,7 +11,7 @@ char *_strstr(char *haystack, char *needle)
 	char *a;
 	char *b;
 
-	while (*haystach != '\0')
+	while (*haystack != '\0')
 	{
 		a = haystack;
 		b = needle;
