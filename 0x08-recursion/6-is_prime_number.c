@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime_number - 1 if a prime number, 0 otherwise
+ * is_prime_number - returns 1 if a prime number, 0 otherwise
  * @n: number
  * Return: int
  */
@@ -12,7 +12,7 @@ int is_prime_number(int n)
 }
 
 /**
- * getPrime - checks if 0 or 1
+ * getPrime - gets if the number is 0 or 1
  * @a: input
  * @b: count
  * Return: int
