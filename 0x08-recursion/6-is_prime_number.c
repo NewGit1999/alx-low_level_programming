@@ -17,7 +17,7 @@ int is_prime_number(int n)
  * @b: count
  * Return: int
  */
-int getPrime(int a, int b);
+int getPrime(int a, int b)
 {
 	if (a == b)
 		return (1);
