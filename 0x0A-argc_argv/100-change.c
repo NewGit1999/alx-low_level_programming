@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		{
 			d = (b / coins[a]);
 			c += d;
-			b -= coins[a] * d
+			b -= coins[a] * d;
 		}
 		a++;
 	}
