@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b, c, d;
-	int T[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	a = b = c = d = 0;
 	if (argc != 2)
@@ -23,17 +23,16 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	while (T[a] != '\0')
+	while (coins[a] != '\0')
 	{
-		if (b >= T[a])
+		if (b >= coins[a])
 		{
-			d = (b / T[a]);
+			d = (b / coins[a]);
 			c += d;
-			b -= T[a] * d
+			b -= coins[a] * d
 		}
 		a++;
 	}
 	printf("%d\n", c);
 	return (0);
 }
-
