@@ -8,29 +8,17 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, a, b, prod;
+	int a, b, prod;
 
-	i = a = b = prod = 0;
-	if (argc > 0)
+	if (argc != 3)
 	{
-		while (i < argc)
-		{
-			if (argc == 3)
-			{
-				if (i == 1)
-					a = atoi(argv[i]);
-				else if (i == 2)
-					b = atoi(arg[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-			prod = (a * b);
-			i++;
-		}
-		printf("%d\n", prod);
+		printf("Error\n");
+		return (1);
 	}
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	prod = a * b;
+	printf("%d\n", prod);
+
 	return (0);
 }
